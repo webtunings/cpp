@@ -1,7 +1,5 @@
 #include <iostream>
 using namespace std;
-
-
 double sqrt(double); //prototype
 
 int main() {
@@ -12,16 +10,13 @@ int main() {
  return 0;
 }
 
-
 double sqrt(double number) {
  double error = 0.00001;
  double s = number;
 
  while((s - number/s) > error) {
  s = (s+ number/s)/2;
-
  cout<<"Intermediate result= " << s<<endl;
  }
-
  return s;
 }
