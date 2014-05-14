@@ -8,7 +8,6 @@ int main(){
 cout <<  "result= " << couponCollector(365) <<endl;
 }
 
-
 int couponCollector(int number) {
  
  //dynamic memory allocation
