@@ -18,8 +18,7 @@ int couponCollector(int number) {
   collected[i] = false;
  }
 
- int iteration = 0;
- int unique = 0;
+ int iteration = 0, unique = 0;
 
  random_device rd;
  mt19937 engine(rd());
